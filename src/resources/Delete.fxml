@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="loginPanel" prefHeight="460.0" prefWidth="500.0" style="-fx-background-color: Transparent;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.LoginController">
+   <children>
+      <AnchorPane layoutY="79.0" maxHeight="380.0" maxWidth="-Infinity" prefHeight="290.0" prefWidth="500.0" style="-fx-background-color: #282828;">
+         <children>
+            <Label fx:id="deletePassLabel" layoutX="119.0" layoutY="14.0" text="%deletePassLabel" textFill="WHITE">
+               <font>
+                  <Font name="Bahnschrift" size="36.0" />
+               </font>
+            </Label>
+            <Label fx:id="passwordLabel" layoutX="38.0" layoutY="118.0" text="%passwordLabel" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <TextField fx:id="deletePasswordTF" layoutX="38.0" layoutY="145.0" prefHeight="55.0" prefWidth="425.0">
+               <font>
+                  <Font name="Bahnschrift" size="24.0" />
+               </font>
+            </TextField>
+            <Label fx:id="deleteOutLabel" layoutX="38.0" layoutY="210.0" maxHeight="170.0" maxWidth="-Infinity" prefWidth="425.0" text="The password was deleted." textFill="WHITE" wrapText="true">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

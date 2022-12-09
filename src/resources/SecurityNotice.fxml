@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="securityNoticePanel" prefHeight="460.0" prefWidth="500.0" style="-fx-background-color: Transparent;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.LoginController">
+   <children>
+      <AnchorPane layoutY="-4.0" prefHeight="468.0" prefWidth="500.0" style="-fx-background-color: #282828;">
+         <children>
+            <Label fx:id="loginLabel" layoutX="130.0" layoutY="22.0" text="Security Notice" textFill="WHITE">
+               <font>
+                  <Font name="Bahnschrift" size="36.0" />
+               </font>
+            </Label>
+            <TextArea editable="false" layoutX="14.0" layoutY="87.0" prefHeight="326.0" prefWidth="472.0" style="-fx-control-inner-background: #282828;" text="All of your data will be encrypted and saved locally on your computer only. &#10;The data can not be read on any device other than the computer it was saved on, for the reason that the file is encrypted uniquely on each computer.&#10;This prevents strangers from stealing the data file and trying to encrypt it on another computer.&#10;&#10;Since all of your information remains confidential at all times, your data and password can not be recovered as we have no access to them.&#10;&#10;Important: If you happen to forget your password, the only option is to delete all data. The file is located in &quot;C:\Users\&lt;your user&gt;\AppData\Roaming\PSA&quot;. &#10;As a security measure, you have to delete the file manually.&#10;&#10;-your Password Saving Assistant (PSA)" wrapText="true">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </TextArea>
+            <Label layoutX="106.0" layoutY="419.0" text="Confirm by pressing Enter" textFill="WHITE">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
