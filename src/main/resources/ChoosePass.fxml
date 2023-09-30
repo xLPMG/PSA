@@ -6,21 +6,21 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="460.0" prefWidth="500.0" style="-fx-background-color: #282828;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="460.0" prefWidth="500.0" style="-fx-background-color: #282828;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <TextField fx:id="passwordInputTF" layoutX="39.0" layoutY="230.0" prefHeight="0.0" prefWidth="425.0">
          <font>
             <Font size="22.0" />
          </font>
       </TextField>
-      <Label fx:id="choosePassLabel" layoutX="39.0" layoutY="192.0" prefHeight="32.0" prefWidth="425.0" text="%choosePassLabel" textFill="WHITE">
+      <Label fx:id="choosePassLabel" layoutX="40.0" layoutY="186.0" prefHeight="32.0" prefWidth="425.0" text="%choosePassLabel" textFill="WHITE">
          <font>
             <Font size="22.0" />
          </font>
       </Label>
-      <Label fx:id="welcomeLabel" alignment="CENTER" layoutX="1.0" layoutY="45.0" prefHeight="50.0" prefWidth="500.0" text="%welcomeLabel" textAlignment="CENTER" textFill="WHITE">
+      <Label fx:id="welcomeLabel" alignment="CENTER" layoutX="2.0" layoutY="73.0" prefHeight="50.0" prefWidth="500.0" text="%welcomeLabel" textAlignment="CENTER" textFill="WHITE">
          <font>
-            <Font size="34.0" />
+            <Font size="38.0" />
          </font>
       </Label>
       <Label fx:id="confirmLabel" layoutX="166.0" layoutY="419.0" text="%confirmLabel" textFill="WHITE">
