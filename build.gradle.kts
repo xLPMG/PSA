@@ -6,7 +6,7 @@ repositories {
 	mavenCentral()
 }
 javafx {
-    version = "19"
+    version = "21"
     modules("javafx.controls", "javafx.fxml")
 }
 
